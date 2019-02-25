@@ -1,5 +1,5 @@
 {
-    "name": "prestashop/customers",
+    "name": "friends-of-prestashop/customers",
     "description": "Learn Grid customizations by exemple",
     "autoload": {
         "psr-4": {
