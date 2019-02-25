@@ -1,0 +1,11 @@
+{
+    "name": "prestashop/customers",
+    "description": "Learn Grid customizations by exemple",
+    "autoload": {
+        "psr-4": {
+            "Customers\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "type": "prestashop-module"
+}

@@ -1,0 +1,4 @@
+services:
+    _defaults:
+        # make all services accessible directly from container
+        public: true
