@@ -95,8 +95,8 @@ class customers extends Module
                 'empty_value' => '--',
             ]);
 
-        $columns->addAfter('newsletter', $sales);
         $columns->addAfter('newsletter', $nbOrders);
+        $columns->addAfter('nb_orders', $sales);
 
         /** @var FilterCollection $filters */
         $filters = $definition->getFilters();
